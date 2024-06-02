@@ -1,0 +1,31 @@
+.nav {
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #F56B9A;
+
+}
+
+
+/* Ul */
+.nav__links {
+    display: flex;
+    justify-content: space-around;
+    filter: drop-shadow(1px 1px 0 #000000);
+}
+
+
+.nav__list {
+    list-style: none;
+
+}
+
+/* Länkarna */
+.nav__link {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+
+}
